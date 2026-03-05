@@ -1,0 +1,77 @@
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/010/586/176/non_2x/luxurious-black-and-gold-background-with-copy-space-vector.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: large;
+  color: #ffffff;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+.plan {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.plan h2 {
+  margin-top: 0;
+}
+.deluxe {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/018/944/205/non_2x/black-and-gold-background-vector.jpg);
+  color: #fff;
+}
+.extra {
+  background-image: url(https://img.freepik.com/foto-gratis/pared-estudio-gradiente-amarillo-dorado-lujo-abstracto-usa-bien-como-banner-fondo-diseno-producto_1258-52631.jpg);
+}
+.essential {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-gris-lineas-doradas-geometricas-baja-poli_1017-27817.jpg);
+}
+
+.plan-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.plan-options .option {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ffba3b;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

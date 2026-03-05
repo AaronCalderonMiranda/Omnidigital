@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../styles/tienda.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+  </head>
+  <body>
+    <div id="navbar-container"></div>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel-juegos carousel slide"
+      data-bs-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+        ></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-item">
+          <img
+            class="d-block w-100 d-img"
+            src="../imagenes/imagenesjuegos/294b4e04dc1be317d3f7ad22712097340e25a4ab6fc69c93b267b8676c3f72d6.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase text-capitalize"></p>
+            <h1 class="display-1 fw-bolder text-capitalize"></h1>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img
+            class="imagen-1 d-block w-100 d-img"
+            src="../imagenes/imagenesjuegos/sack.webp"
+            alt="Second slide"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase text-capitalize"></p>
+            <h1 class="display-1 fw-bolder text-capitalize"></h1>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img
+            class="d-block w-100 d-img"
+            src="../imagenes/imagenesjuegos/Days-Gone.webp"
+            alt="Third slide"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase"></p>
+            <h1 class="display-1 fw-bolder text-capitalize"></h1>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previo</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+    <div class="titulojuegos">
+      <h1>Grandes juegos disponibles</h1>
+
+      <div class="container-cards2">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/1.jpg"
+                  class="card-img-top"
+                  alt="Card image 1"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal1"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/2"
+                  class="card-img-top"
+                  alt="Card image 2"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal2"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/3"
+                  class="card-img-top"
+                  alt="Card image 3"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal3"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/4"
+                  class="card-img-top"
+                  alt="Card image 4"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal4"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/fortnite.jpg"
+                  class="card-img-top"
+                  alt="Card image 5"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal5"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/fc25"
+                  class="card-img-top"
+                  alt="Card image 6"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal6"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/NBA2K25.webp"
+                  class="card-img-top"
+                  alt="Card image 7"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal7"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/warz.jpg"
+                  class="card-img-top"
+                  alt="Card image 8"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal8"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-custom me-5">
+                <img
+                  src="../imagenes/imagenes-cards2/astro"
+                  class="card-img-top"
+                  alt="Card image 9"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gameModal9"
+                >
+                  Información
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal1"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel1">
+              Assassin's Creed Valhalla
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Assassin's Creed Valhalla se lleva a cabo a finales del siglo IX, en
+            una época en donde las tribus nórdicas, abandonan sus hogares en
+            Escandinavia, y navegan hacia los reinos fracturados, como
+            Inglaterra.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal2"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel2">HELLDIVERS</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Un divertido shooter cooperativo de doble stick con perspectiva
+            isométrica, en el que nos tenemos que enfrentarno a peligrosas
+            hordas de alienígenas formando un equipo de cuatro amigos, tanto de
+            manera local como a través de internet.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal3"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">Horizon Adventures</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Únete a la cazadora de máquinas Aloy mientras lidera un pintoresco
+            grupo de héroes a través de la exuberante naturaleza para salvar el
+            mundo y conocer los secretos de su pasado.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal4"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel4"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">
+              Resident Evil Village
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Año 2021: Tres años después del incidente de Dulvey, Ethan Winters y
+            su esposa Mia deciden establecerse en Europa teniendo una hija,
+            Rosemary. Ambos tendrán una vida normal, pero debido al pasado de
+            Mia y su relación con la organización terrorista conocida como Las
+            Conexiones, estarán vigilados.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal5"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel5"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">Lego Fortnite</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Lego Fortnite es un videojuego de supervivencia en mundo abierto,
+            desarrollado y publicado por Epic Games en asociación con The Lego
+            Group.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal6"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel6"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">FC 25</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            EA SPORTS FC™ 25 te ofrece más formas de ganar por el club. Forma
+            equipo con tus colegas en tus modos favoritos con el nuevo Rush de 5
+            contra 5 y lleva a tu club a la victoria gracias a FC IQ y su mayor
+            control táctico en cada encuentro. EA SPORTS FC™ 25 tiene a los y
+            las mejores futbolistas de los clubes y competiciones más
+            importantes de todo el mundo. Los datos de partidos de las mejores
+            ligas del mundo determinan como se mueven, como juegan y como ganan
+            en cada partido más de 19 000 futbolistas. Juega para ganar en EA
+            SPORTS FC™ 25. Hazlo por el club.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal7"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel7"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">2K25</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            NBA 2K25 viene repleto de campeones de pedigrí puro con un atletismo
+            electrizante y, en definitiva, de talento MVP. Entre los deportistas
+            que aparecen en las portadas de la edición de 2K25 encontrarás a la
+            leyenda de la NBA Vince Carter, a la bicampeona de Las Vegas Aces
+            A'ja Wilson y a la superestrella de los Boston Celtics Jayson Tatum,
+            todas ellas en honor al pasado y al presente de este gran deporte.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal8"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel8"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">
+              Call of duty / Season 5
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            La baronesa ha llegado. La líder del cártel de Las Almas se ha
+            mantenido fiel a su palabra y está aquí para vengarse de quienes la
+            encerraron. Esta reina astuta y manipuladora está a la caza del
+            poder en la Temporada 5, dando ejemplo a cualquiera que se atreva a
+            cuestionar sus tácticas.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gameModal9"
+      tabindex="-1"
+      aria-labelledby="gameModalLabel9"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameModalLabel3">AstroBot</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Encontrar los robots VIP especiales es solo la mitad de la historia:
+            usa las monedas que recojas en tus viajes en el Laboratorio Gatcha
+            para desbloquear objetos especiales para tus amigos rescatados.
+            Cuando un robot VIP se reúna con su objeto único, realizará acciones
+            especiales de los juegos clásicos que lo inspiraron.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tiendas-digitales">
+      <h1>
+        Disponible una gran variedad <br />
+        de tiendas digitales como:
+      </h1>
+      <div class="iconos-tiendas">
+        <img
+          src="../imagenes/imagenes-iconos-tiendas/icons8-juegos-épicos-50.png"
+          alt="1"
+        />
+        <img
+          src="../imagenes/imagenes-iconos-tiendas/icons8-steam-94.png"
+          alt="2"
+        />
+      </div>
+    </div>
+
+    <script src="../funcion.js"></script>
+    <script src="/Componente.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

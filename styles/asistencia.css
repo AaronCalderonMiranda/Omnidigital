@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.icon {
+  width: 100px;
+  padding-right: 10%;
+}
+
+.boton-sesion {
+  padding-right: 5%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-top: 10%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.card-custom img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.card-custom:hover {
+  padding: 5px;
+}
