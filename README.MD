@@ -41,3 +41,6 @@ Este proyecto fue creado con fines educativos para practicar diseño frontend y 
 - Trabajar componentes visuales como cards, botones, grids y secciones dinámicas
 
 ---
+
+
+
